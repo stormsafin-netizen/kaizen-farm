@@ -122,21 +122,33 @@ button {
 
 .character-avatar {
   flex: 0 0 auto;
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border: 2px solid var(--line);
   border-radius: 50%;
   display: grid;
   place-items: center;
   background: var(--paper);
-  color: var(--leaf-dark);
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  font-size: 0;
   font-weight: 800;
+  box-shadow: 0 8px 18px rgba(54, 85, 31, 0.16);
+}
+
+.hero-board .character-avatar,
+.step-card .character-avatar {
+  background-image: url("assets/characters/nagi-farm-manager.jpg");
+}
+
+.summary-card .character-avatar {
+  background-image: url("assets/characters/ren-harvest-manager.jpg");
 }
 
 .farm-shell[data-character-mode="minimal"] .character-avatar {
-  width: 48px;
-  height: 48px;
-  font-size: 0.85rem;
+  width: 56px;
+  height: 56px;
 }
 
 .farm-shell[data-character-mode="off"] .character-row {
