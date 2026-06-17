@@ -50,6 +50,11 @@
     large: { label: "大きく育てるたね", defaultReviewDays: 7 },
   };
 
+  const CHARACTER_AVATARS = {
+    nagi: '<img class="character-avatar" src="assets/characters/nagi-farm-manager-v2.svg" alt="凪（農園長）" width="112" height="112" />',
+    ren: '<img class="character-avatar" src="assets/characters/ren-harvest-manager-v2.svg" alt="蓮（収穫担当）" width="112" height="112" />',
+  };
+
   function createId(prefix) {
     const cryptoApi = globalThis.crypto || (globalThis.window && globalThis.window.crypto);
     if (cryptoApi && typeof cryptoApi.randomUUID === "function") {
@@ -422,7 +427,7 @@
         <section class="hero-board">
           <div class="wood-sign">改善農園</div>
           <div class="character-row">
-            <div class="character-avatar">なぎ</div>
+            ${CHARACTER_AVATARS.nagi}
             <div class="speech">今日はどんな困りごとを見つけたん？小さい違和感も、改善のたねになるで。</div>
           </div>
         </section>
@@ -570,7 +575,7 @@
       <section class="step-card">
         <div class="step-dots">${GROWTH_STEPS.map((item, index) => `<span class="step-dot ${index === state.activeStepIndex ? "active" : ""}">${index + 1}</span>`).join("")}</div>
         <div class="character-row">
-          <div class="character-avatar">なぎ</div>
+          ${CHARACTER_AVATARS.nagi}
           <div class="speech">${escapeHtml(step.nagiLine)}</div>
         </div>
         <form id="stepForm" class="field-stack">
@@ -692,7 +697,7 @@
     els.harvestScreen.innerHTML = `
       <section class="summary-card">
         <div class="character-row">
-          <div class="character-avatar">れん</div>
+          ${CHARACTER_AVATARS.ren}
           <div class="speech">これ、改善のカタチにまとめたで。使う相手に合わせて最後に整えてな。</div>
         </div>
         <h2>改善提案サマリー</h2>
