@@ -79,6 +79,11 @@ test("defines the six growth steps in the agreed order", () => {
   assert.equal(sandbox.GROWTH_STEPS[5].title, "理想の状態・次に確認すること");
 });
 
+test("reapplies the active screen after rerendering screen markup", () => {
+  const renderAppBody = source.match(/function renderApp\(\) \{([\s\S]*?)\n  \}/)[1];
+  assert.match(renderAppBody, /renderHome\(\);[\s\S]*renderGrow\(\);[\s\S]*renderHarvest\(\);[\s\S]*renderSettings\(\);[\s\S]*setScreen\(state\.screen\);/);
+});
+
 test("creates a seed with browser-local data shape", () => {
   const seed = sandbox.createSeed({
     originalMemo: "記録を書くのに時間がかかる",

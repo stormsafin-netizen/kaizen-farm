@@ -16,9 +16,6 @@
       <stop offset="0" stop-color="#c68b45"/>
       <stop offset="1" stop-color="#7b4a22"/>
     </linearGradient>
-    <filter id="soft" x="-12%" y="-12%" width="124%" height="124%">
-      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#60773a" flood-opacity="0.18"/>
-    </filter>
   </defs>
   <circle cx="256" cy="256" r="244" fill="url(#garden)"/>
   <path d="M58 353c59-44 126-54 199-31 66 21 123 12 198-23v153H58z" fill="#b9d77d" opacity=".68"/>
@@ -27,7 +24,7 @@
     <path d="M421 330c-4-51-23-89-58-116"/>
     <path d="M119 256c-20-14-39-14-58 1M374 262c22-14 43-14 63 3"/>
   </g>
-  <g filter="url(#soft)">
+  <g>
     <g transform="translate(73 291)">
       <ellipse cx="88" cy="87" rx="82" ry="45" fill="url(#basket)" stroke="#6b3d1b" stroke-width="8"/>
       <path d="M22 84c16 47 116 47 132 0v54c-15 43-118 43-132 0z" fill="url(#basket)" stroke="#6b3d1b" stroke-width="7"/>
