@@ -127,10 +127,17 @@ button {
   border: 2px solid var(--line);
   border-radius: 50%;
   display: block;
+  overflow: hidden;
   background: var(--paper);
+  box-shadow: 0 8px 18px rgba(54, 85, 31, 0.16);
+}
+
+.character-avatar-image {
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
-  box-shadow: 0 8px 18px rgba(54, 85, 31, 0.16);
 }
 
 .farm-shell[data-character-mode="minimal"] .character-avatar {

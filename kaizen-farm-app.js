@@ -51,8 +51,8 @@
   };
 
   const CHARACTER_AVATARS = {
-    nagi: '<img class="character-avatar" src="assets/characters/nagi-farm-manager-v2.svg" alt="凪（農園長）" width="112" height="112" />',
-    ren: '<img class="character-avatar" src="assets/characters/ren-harvest-manager-v2.svg" alt="蓮（収穫担当）" width="112" height="112" />',
+    nagi: '<span class="character-avatar" role="img" aria-label="凪（農園長）"><img class="character-avatar-image" src="assets/characters/nagi-farm-manager-v2.svg" alt="" width="112" height="112" aria-hidden="true" /></span>',
+    ren: '<span class="character-avatar" role="img" aria-label="蓮（収穫担当）"><img class="character-avatar-image" src="assets/characters/ren-harvest-manager-v2.svg" alt="" width="112" height="112" aria-hidden="true" /></span>',
   };
 
   function createId(prefix) {
@@ -410,6 +410,7 @@
     renderGrow();
     renderHarvest();
     renderSettings();
+    setScreen(state.screen);
   }
 
   function renderHome() {
