@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>改善農園</title>
+    <link rel="stylesheet" href="kaizen-farm.css" />
+  </head>
+  <body>
+    <div class="farm-shell" data-font-size="standard" data-character-mode="normal">
+      <header class="farm-header">
+        <button id="backButton" class="ghost-button" type="button">戻る</button>
+        <div>
+          <p class="eyebrow">話して、育てて、改善として収穫する</p>
+          <h1 id="screenTitle">改善農園</h1>
+        </div>
+        <button id="settingsButton" class="icon-button" type="button" aria-label="設定">設定</button>
+      </header>
+
+      <main>
+        <section id="homeScreen" class="screen"></section>
+        <section id="growScreen" class="screen hidden"></section>
+        <section id="harvestScreen" class="screen hidden"></section>
+        <section id="settingsScreen" class="screen hidden"></section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="主要画面">
+        <button class="nav-button active" data-screen="home" type="button">ホーム</button>
+        <button class="nav-button" data-screen="grow" type="button">育成中</button>
+        <button class="nav-button" data-screen="harvest" type="button">収穫</button>
+        <button class="nav-button" data-screen="settings" type="button">設定</button>
+      </nav>
+
+      <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+    </div>
+
+    <script src="kaizen-farm-app.js"></script>
+  </body>
+</html>
