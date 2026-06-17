@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">蓮（収穫担当）</title>
+  <desc id="desc">赤い蝶ネクタイをつけ、野菜かごのそばに座る黒い収穫担当の犬</desc>
+  <defs>
+    <radialGradient id="garden" cx="48%" cy="30%" r="72%">
+      <stop offset="0" stop-color="#fff7d4"/>
+      <stop offset="0.63" stop-color="#dcefb5"/>
+      <stop offset="1" stop-color="#f8efd0"/>
+    </radialGradient>
+    <radialGradient id="blackfur" cx="45%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#3a342b"/>
+      <stop offset="0.72" stop-color="#151513"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="basket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c68b45"/>
+      <stop offset="1" stop-color="#7b4a22"/>
+    </linearGradient>
+    <filter id="soft" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#60773a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="url(#garden)"/>
+  <path d="M58 353c59-44 126-54 199-31 66 21 123 12 198-23v153H58z" fill="#b9d77d" opacity=".68"/>
+  <g stroke="#8fb05b" stroke-width="9" stroke-linecap="round" fill="none" opacity=".82">
+    <path d="M86 328c1-48 15-86 44-114"/>
+    <path d="M421 330c-4-51-23-89-58-116"/>
+    <path d="M119 256c-20-14-39-14-58 1M374 262c22-14 43-14 63 3"/>
+  </g>
+  <g filter="url(#soft)">
+    <g transform="translate(73 291)">
+      <ellipse cx="88" cy="87" rx="82" ry="45" fill="url(#basket)" stroke="#6b3d1b" stroke-width="8"/>
+      <path d="M22 84c16 47 116 47 132 0v54c-15 43-118 43-132 0z" fill="url(#basket)" stroke="#6b3d1b" stroke-width="7"/>
+      <path d="M17 93h142M35 122h107M56 79v74M88 73v86M121 78v76" stroke="#e0b06a" stroke-width="7" opacity=".58"/>
+      <path d="M38 38c22-35 79-35 102 0" fill="none" stroke="#7a4a24" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="47" cy="58" r="25" fill="#e47d35"/>
+      <path d="M39 35c9-14 25-17 43-12-8 17-23 22-43 12z" fill="#6f9f3e"/>
+      <ellipse cx="88" cy="55" rx="28" ry="22" fill="#f2d86b"/>
+      <path d="M118 64c10-24 31-35 58-31 3 29-11 47-43 54z" fill="#77a94c"/>
+      <circle cx="132" cy="58" r="22" fill="#de5b35"/>
+    </g>
+    <ellipse cx="290" cy="323" rx="97" ry="121" fill="url(#blackfur)"/>
+    <path d="M203 182c-59-64-88-75-102-38-13 35 16 103 77 136z" fill="url(#blackfur)" stroke="#050505" stroke-width="8"/>
+    <path d="M337 182c61-64 91-75 104-38 13 35-17 103-79 136z" fill="url(#blackfur)" stroke="#050505" stroke-width="8"/>
+    <path d="M151 159c17 19 31 43 42 72-30-19-50-45-42-72zM390 159c-18 20-33 44-44 73 32-19 53-46 44-73z" fill="#a97948"/>
+    <circle cx="270" cy="243" r="106" fill="url(#blackfur)"/>
+    <ellipse cx="228" cy="250" rx="23" ry="27" fill="#2a2018"/>
+    <ellipse cx="313" cy="250" rx="23" ry="27" fill="#2a2018"/>
+    <circle cx="235" cy="241" r="8" fill="#fff8e9"/>
+    <circle cx="320" cy="241" r="8" fill="#fff8e9"/>
+    <path d="M198 211c20-23 43-24 64-3-25 9-46 10-64 3zM282 208c22-21 45-20 64 3-19 7-40 6-64-3z" fill="#d7a052"/>
+    <ellipse cx="270" cy="286" rx="49" ry="39" fill="#f1d9b8"/>
+    <ellipse cx="270" cy="276" rx="24" ry="16" fill="#15100d"/>
+    <path d="M239 308c20 23 43 23 63 0" stroke="#6a3b2a" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M234 372c22-28 48-32 77-11-19 31-45 34-77 11zM306 361c31-21 58-17 79 12-32 23-59 19-79-12z" fill="#b83326" stroke="#7d211b" stroke-width="7"/>
+    <circle cx="306" cy="367" r="18" fill="#d9553d" stroke="#7d211b" stroke-width="7"/>
+  </g>
+</svg>

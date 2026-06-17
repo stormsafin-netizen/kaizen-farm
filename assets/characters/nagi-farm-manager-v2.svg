@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">凪（農園長）</title>
+  <desc id="desc">麦わら帽子と緑のスカーフを身につけた白い農園長の犬</desc>
+  <defs>
+    <radialGradient id="sky" cx="45%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#fff9d9"/>
+      <stop offset="0.58" stop-color="#dff0ba"/>
+      <stop offset="1" stop-color="#f8f1cf"/>
+    </radialGradient>
+    <linearGradient id="straw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2c66a"/>
+      <stop offset="1" stop-color="#b9812f"/>
+    </linearGradient>
+    <radialGradient id="fur" cx="42%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#fffdf3"/>
+      <stop offset="0.72" stop-color="#f3ead4"/>
+      <stop offset="1" stop-color="#dfd1b7"/>
+    </radialGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#6b813a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="url(#sky)"/>
+  <path d="M62 354c64-46 123-53 183-33 72 24 122 15 205-22v153H62z" fill="#b6d678" opacity=".65"/>
+  <g stroke="#9bb66a" stroke-width="9" stroke-linecap="round" fill="none" opacity=".8">
+    <path d="M84 318c0-56 19-94 55-118"/>
+    <path d="M428 326c-4-59-26-100-66-125"/>
+    <path d="M123 246c-20-15-38-15-55 0M124 282c-26-7-48 0-68 22"/>
+    <path d="M374 250c23-16 44-17 64-2M370 287c28-8 52 0 74 22"/>
+  </g>
+  <path d="M91 318h330" stroke="#c69a58" stroke-width="18" stroke-linecap="round" opacity=".65"/>
+  <path d="M118 288v78M198 284v86M286 285v83M377 287v80" stroke="#b98542" stroke-width="16" stroke-linecap="round" opacity=".6"/>
+  <g filter="url(#soft)">
+    <ellipse cx="256" cy="313" rx="119" ry="136" fill="url(#fur)"/>
+    <ellipse cx="151" cy="282" rx="57" ry="70" fill="#efe2c8"/>
+    <ellipse cx="361" cy="282" rx="57" ry="70" fill="#efe2c8"/>
+    <circle cx="256" cy="249" r="112" fill="url(#fur)"/>
+    <path d="M159 191c26-55 80-78 148-68 47 7 88 34 106 72-72-13-158-14-254-4z" fill="url(#straw)" stroke="#8d672c" stroke-width="8"/>
+    <ellipse cx="260" cy="198" rx="152" ry="34" fill="url(#straw)" stroke="#8d672c" stroke-width="8"/>
+    <path d="M171 199c65 17 126 17 179 1" stroke="#6d9437" stroke-width="12" stroke-linecap="round"/>
+    <path d="M287 127c12-28 34-39 66-34-12 29-34 42-66 34z" fill="#81aa39"/>
+    <path d="M292 128c-13-25-9-48 14-69 16 26 11 49-14 69z" fill="#9abd49"/>
+    <circle cx="215" cy="245" r="20" fill="#2e241d"/>
+    <circle cx="297" cy="245" r="20" fill="#2e241d"/>
+    <circle cx="222" cy="238" r="7" fill="#fff8e7"/>
+    <circle cx="304" cy="238" r="7" fill="#fff8e7"/>
+    <ellipse cx="256" cy="286" rx="25" ry="18" fill="#3a2b22"/>
+    <path d="M224 315c19 21 45 21 64 0" stroke="#6a4734" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <path d="M203 365c37 24 72 24 106 0l-15 76h-76z" fill="#5f8f3b"/>
+    <path d="M255 370c-28-25-59-29-91-14 21 30 55 37 91 14zM257 370c29-25 61-29 94-14-23 31-56 37-94 14z" fill="#6ea545"/>
+  </g>
+</svg>
